@@ -1,3 +1,5 @@
+# Don't send local dependencies and repo to docker deamon
+
 node_modules
 .git
 .gitignore
