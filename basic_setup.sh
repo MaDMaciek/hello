@@ -14,5 +14,6 @@ apt-get install docker-ce docker-ce-cli containerd.io -y
 
 # Run container
 echo "[TASK 3] Run smaple angular app"
+cd /vagrant
 sudo docker build --pull --rm -t hello:test "."
 sudo docker run -d -p 80:80 hello:test

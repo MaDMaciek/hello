@@ -1,27 +1,17 @@
-# HelloSpa
+# Introduction
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
-## Development server
+## Prerequisites
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+To follow this instruction, you will need the following:
 
-## Code scaffolding
+- Vagrant instaled on your host machine
+- VirtualBox instaled on your host machine
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `sudo apt install virtualbox vagrant` to install both applications.
 
-## Build
+## Working with Vagrant
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Clone this repository to your host machine. Move to pathe where is repo stored and run `vagrant up`. Wait until vagrant provision new virtual machine.
+The test app will be accessible on host machine on adress: `http://localhost:8080/`.
